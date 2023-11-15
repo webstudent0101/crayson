@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'playfair';
+    src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+font-weight: 400
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-BlackItalic.ttf);
+
+}
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');

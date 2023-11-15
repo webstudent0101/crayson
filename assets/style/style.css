@@ -1,0 +1,366 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    
+}
+.nav{
+    padding: 25px 0;
+    background: white;
+}
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    gap: 40px;
+    
+}
+.nav__list-link{
+    color: #000;
+font-family: 'Playfair';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+display: flex;
+align-items: center;
+gap: 4px;
+
+}
+.nav__search{
+    display: flex;
+    gap: 4px;
+}
+
+.nav__search input{
+    padding: 6px 12px;
+    border: 1px solid #41A28E;
+    outline: none;
+    
+    color: #4B4848;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nav__search input::placeholder{
+    color: #4B4848;  
+}
+
+.nav__search button{
+    padding: 0 7px;
+    background: #41A28E;
+    border: none;
+    outline: none;
+}
+.header__content{
+    min-height: 750px;
+    background-image:   url('../images/headerbg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__content-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair' ;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    background: rgba(0, 0, 0, 0.70);
+    padding: 17px 61px;
+    
+}
+.header__content-subtitle{
+    color: #FFF;
+text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.38);
+font-family: 'Playfair';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 30px;
+margin-bottom: 50px;
+
+}
+
+
+.header__content-btn{
+    color: #000;
+font-family: 'Playfair';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 22px 35px;
+background-color: white;
+}
+
+.dropdown__item{
+    position: relative;
+}
+
+.dropdown__list{
+    border-radius: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FFF; 
+    position: absolute; 
+/* top: 28px; */
+    top: -200px;
+
+}
+
+.dropdown__item:hover  .dropdown__list{
+  top: 28px;
+}
+.dropdown__list-link{
+    padding: 12px 30px;
+    display: block;
+    color: #000;
+font-family: 'Playfair';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.border__link{
+    border-top: 1px solid #E5E5E5;
+    border-bottom:1px solid #E5E5E5 ;
+}
+.comerce{
+    padding-top: 48px;
+    padding-bottom: 72px;
+}
+.comerce__content-item{
+    max-width: 255px;
+    max-height: 170px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+}
+.item-info{
+    width: 100%;
+    height: 38px;
+    background: rgba(75, 72, 72, 0.70);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s;
+}
+.item-info span{
+    color: #FFF;
+text-align: center;
+font-family: 'Playfair';
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.comerce__content-item:hover .item-info{
+    opacity: 1;
+}
+.comerce__content-items{
+    display: flex;
+   gap: 30px;
+}
+.comerce__title{
+    color: #000;
+text-align: center;
+font-family: 'Playfair' ;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 52px;
+padding-bottom: 18px;
+}
+
+.comerce__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+  
+
+.comerce__subtitle{
+    color: #666;
+text-align: center;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 496px; }
+
+.collection{
+    min-height: 494px;
+    background-image:url(../images/tttt.jpg) ;
+    background-size: cover;background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    
+    
+}
+
+.collection__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.collection__content-title{
+    color: #FFF;
+
+font-family: 'Playfair';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.collection__content-subtitle{
+    color: #FFF;
+font-family: 'Playfair';
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 3px;
+margin-bottom: 22px;
+}
+.collection__content-btn{
+    color: #000;
+font-family: 'Playfair' ;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 23px 42px;
+background-color: white
+;
+max-width: max-content;
+}
+.custome{
+    padding: 50px 0;
+    display: flex;
+ 
+    
+}
+.custome__title{
+    color: #000;
+text-align: center;
+font-family: 'Playfair';
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.custome__subtitle{
+    color: #666;
+text-align: center;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 496px;
+margin-top: 18px;
+
+}
+.custome__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.custome__items{
+    padding-top: 69px;
+    padding-bottom: 152px;
+}
+.custome__content-items{
+    max-width: 255px;
+    max-height: 340px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.custome__info{
+    width: 100%;
+    height: 47px;
+    background: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s;
+    
+}
+.custome__info span{
+    color: #FFF;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'Playfair' ;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.custome__content-items:hover .custome__info{
+    opacity: 1;
+}
+.custome__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.textw{
+    color: #000;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+padding-top: 43px;
+}
+.texte{
+    color: #000;
+ 
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    
+}
